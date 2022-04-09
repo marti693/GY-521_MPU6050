@@ -15,6 +15,7 @@ The second video only shows one value, for an easier to digest real-time display
 # USAGE:
 
 To use these libraries, simply include mpu6050.h in your c code, along with ci2c.h (and any other includes you might want)
+
 First, a slave object must be made: ex - I2C_SLAVE [slave name];
 Then, you have access to three methods specific to the MPU6050:
 
