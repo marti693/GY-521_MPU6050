@@ -30,7 +30,9 @@ this method will write data to the 0x6B register of the MPU6050. This is importa
 
 mpu_read_data(&[slave name], data)
 
-this method will read data from the MPU6050. the "data" variable here needs to be an array of uint16_t of length 7. After this is called, each address of the array will be written with a value from the MPU6050. The locations are as follows:
+this method will read data from the MPU6050. the "data" variable here needs to be an array of uint16_t of length 7. After this is called, each address of the array will be written with a value from the MPU6050. 
+***
+The locations are as follows:
 *data[0] - accelerometer_x
 *data[1] - accelerometer_y
 *data[2] - accelerometer_z
