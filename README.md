@@ -34,10 +34,10 @@ this method will read data from the MPU6050. the "data" variable here needs to b
 ***
 The locations are as follows:
 
-Markup: *data[0] - accelerometer_x
-        *data[1] - accelerometer_y
-        *data[2] - accelerometer_z
-        *data[3] - tempurature
-        *data[4] - gyro_x
-        *data[5] - gyro_y
-        *data[6] - gyro_z
+* data[0] - accelerometer_x
+* data[1] - accelerometer_y
+* data[2] - accelerometer_z
+* data[3] - tempurature
+* data[4] - gyro_x
+* data[5] - gyro_y
+* data[6] - gyro_z
